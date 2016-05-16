@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F9472831CE9BFCF0093CF73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9472821CE9BFCF0093CF73 /* main.m */; };
+		5F9472861CE9BFCF0093CF73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9472851CE9BFCF0093CF73 /* AppDelegate.m */; };
+		5F9472891CE9BFCF0093CF73 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9472881CE9BFCF0093CF73 /* ViewController.m */; };
+		5F94728C1CE9BFCF0093CF73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F94728A1CE9BFCF0093CF73 /* Main.storyboard */; };
+		5F94728E1CE9BFCF0093CF73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F94728D1CE9BFCF0093CF73 /* Assets.xcassets */; };
+		5F9472911CE9BFCF0093CF73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F94728F1CE9BFCF0093CF73 /* LaunchScreen.storyboard */; };
+		5F94729C1CE9BFCF0093CF73 /* MagicFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F94729B1CE9BFCF0093CF73 /* MagicFieldTests.m */; };
+		5F9472A71CE9BFCF0093CF73 /* MagicFieldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9472A61CE9BFCF0093CF73 /* MagicFieldUITests.m */; };
+		5F9472B71CE9C25F0093CF73 /* MagicFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9472B61CE9C25F0093CF73 /* MagicFieldView.m */; };
+		5F9472BB1CE9C27E0093CF73 /* MagicFieldController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9472BA1CE9C27E0093CF73 /* MagicFieldController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F9472981CE9BFCF0093CF73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F9472761CE9BFCF0093CF73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F94727D1CE9BFCF0093CF73;
+			remoteInfo = MagicField;
+		};
+		5F9472A31CE9BFCF0093CF73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F9472761CE9BFCF0093CF73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F94727D1CE9BFCF0093CF73;
+			remoteInfo = MagicField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F94727E1CE9BFCF0093CF73 /* MagicField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F9472821CE9BFCF0093CF73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F9472841CE9BFCF0093CF73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5F9472851CE9BFCF0093CF73 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5F9472871CE9BFCF0093CF73 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5F9472881CE9BFCF0093CF73 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5F94728B1CE9BFCF0093CF73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F94728D1CE9BFCF0093CF73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F9472901CE9BFCF0093CF73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F9472921CE9BFCF0093CF73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F9472971CE9BFCF0093CF73 /* MagicFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F94729B1CE9BFCF0093CF73 /* MagicFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagicFieldTests.m; sourceTree = "<group>"; };
+		5F94729D1CE9BFCF0093CF73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F9472A21CE9BFCF0093CF73 /* MagicFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F9472A61CE9BFCF0093CF73 /* MagicFieldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagicFieldUITests.m; sourceTree = "<group>"; };
+		5F9472A81CE9BFCF0093CF73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F9472B51CE9C25F0093CF73 /* MagicFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MagicFieldView.h; path = Library/MagicField/MagicFieldView.h; sourceTree = "<group>"; };
+		5F9472B61CE9C25F0093CF73 /* MagicFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MagicFieldView.m; path = Library/MagicField/MagicFieldView.m; sourceTree = "<group>"; };
+		5F9472B91CE9C27E0093CF73 /* MagicFieldController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MagicFieldController.h; path = Library/MagicField/MagicFieldController.h; sourceTree = "<group>"; };
+		5F9472BA1CE9C27E0093CF73 /* MagicFieldController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MagicFieldController.m; path = Library/MagicField/MagicFieldController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F94727B1CE9BFCF0093CF73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F9472941CE9BFCF0093CF73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F94729F1CE9BFCF0093CF73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F9472751CE9BFCF0093CF73 = {
+			isa = PBXGroup;
+			children = (
+				5F9472B41CE9BFD30093CF73 /* Library */,
+				5F9472801CE9BFCF0093CF73 /* MagicField */,
+				5F94729A1CE9BFCF0093CF73 /* MagicFieldTests */,
+				5F9472A51CE9BFCF0093CF73 /* MagicFieldUITests */,
+				5F94727F1CE9BFCF0093CF73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F94727F1CE9BFCF0093CF73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F94727E1CE9BFCF0093CF73 /* MagicField.app */,
+				5F9472971CE9BFCF0093CF73 /* MagicFieldTests.xctest */,
+				5F9472A21CE9BFCF0093CF73 /* MagicFieldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F9472801CE9BFCF0093CF73 /* MagicField */ = {
+			isa = PBXGroup;
+			children = (
+				5F9472841CE9BFCF0093CF73 /* AppDelegate.h */,
+				5F9472851CE9BFCF0093CF73 /* AppDelegate.m */,
+				5F9472871CE9BFCF0093CF73 /* ViewController.h */,
+				5F9472881CE9BFCF0093CF73 /* ViewController.m */,
+				5F94728A1CE9BFCF0093CF73 /* Main.storyboard */,
+				5F94728D1CE9BFCF0093CF73 /* Assets.xcassets */,
+				5F94728F1CE9BFCF0093CF73 /* LaunchScreen.storyboard */,
+				5F9472921CE9BFCF0093CF73 /* Info.plist */,
+				5F9472811CE9BFCF0093CF73 /* Supporting Files */,
+			);
+			path = MagicField;
+			sourceTree = "<group>";
+		};
+		5F9472811CE9BFCF0093CF73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F9472821CE9BFCF0093CF73 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F94729A1CE9BFCF0093CF73 /* MagicFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F94729B1CE9BFCF0093CF73 /* MagicFieldTests.m */,
+				5F94729D1CE9BFCF0093CF73 /* Info.plist */,
+			);
+			path = MagicFieldTests;
+			sourceTree = "<group>";
+		};
+		5F9472A51CE9BFCF0093CF73 /* MagicFieldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5F9472A61CE9BFCF0093CF73 /* MagicFieldUITests.m */,
+				5F9472A81CE9BFCF0093CF73 /* Info.plist */,
+			);
+			path = MagicFieldUITests;
+			sourceTree = "<group>";
+		};
+		5F9472B41CE9BFD30093CF73 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				5F9472B81CE9C2660093CF73 /* MagicField */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		5F9472B81CE9C2660093CF73 /* MagicField */ = {
+			isa = PBXGroup;
+			children = (
+				5F9472B91CE9C27E0093CF73 /* MagicFieldController.h */,
+				5F9472BA1CE9C27E0093CF73 /* MagicFieldController.m */,
+				5F9472B51CE9C25F0093CF73 /* MagicFieldView.h */,
+				5F9472B61CE9C25F0093CF73 /* MagicFieldView.m */,
+			);
+			name = MagicField;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F94727D1CE9BFCF0093CF73 /* MagicField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F9472AB1CE9BFCF0093CF73 /* Build configuration list for PBXNativeTarget "MagicField" */;
+			buildPhases = (
+				5F94727A1CE9BFCF0093CF73 /* Sources */,
+				5F94727B1CE9BFCF0093CF73 /* Frameworks */,
+				5F94727C1CE9BFCF0093CF73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicField;
+			productName = MagicField;
+			productReference = 5F94727E1CE9BFCF0093CF73 /* MagicField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F9472961CE9BFCF0093CF73 /* MagicFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F9472AE1CE9BFCF0093CF73 /* Build configuration list for PBXNativeTarget "MagicFieldTests" */;
+			buildPhases = (
+				5F9472931CE9BFCF0093CF73 /* Sources */,
+				5F9472941CE9BFCF0093CF73 /* Frameworks */,
+				5F9472951CE9BFCF0093CF73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F9472991CE9BFCF0093CF73 /* PBXTargetDependency */,
+			);
+			name = MagicFieldTests;
+			productName = MagicFieldTests;
+			productReference = 5F9472971CE9BFCF0093CF73 /* MagicFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5F9472A11CE9BFCF0093CF73 /* MagicFieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F9472B11CE9BFCF0093CF73 /* Build configuration list for PBXNativeTarget "MagicFieldUITests" */;
+			buildPhases = (
+				5F94729E1CE9BFCF0093CF73 /* Sources */,
+				5F94729F1CE9BFCF0093CF73 /* Frameworks */,
+				5F9472A01CE9BFCF0093CF73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F9472A41CE9BFCF0093CF73 /* PBXTargetDependency */,
+			);
+			name = MagicFieldUITests;
+			productName = MagicFieldUITests;
+			productReference = 5F9472A21CE9BFCF0093CF73 /* MagicFieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F9472761CE9BFCF0093CF73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Pablo Alejandro";
+				TargetAttributes = {
+					5F94727D1CE9BFCF0093CF73 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					5F9472961CE9BFCF0093CF73 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5F94727D1CE9BFCF0093CF73;
+					};
+					5F9472A11CE9BFCF0093CF73 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5F94727D1CE9BFCF0093CF73;
+					};
+				};
+			};
+			buildConfigurationList = 5F9472791CE9BFCF0093CF73 /* Build configuration list for PBXProject "MagicField" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F9472751CE9BFCF0093CF73;
+			productRefGroup = 5F94727F1CE9BFCF0093CF73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F94727D1CE9BFCF0093CF73 /* MagicField */,
+				5F9472961CE9BFCF0093CF73 /* MagicFieldTests */,
+				5F9472A11CE9BFCF0093CF73 /* MagicFieldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F94727C1CE9BFCF0093CF73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F9472911CE9BFCF0093CF73 /* LaunchScreen.storyboard in Resources */,
+				5F94728E1CE9BFCF0093CF73 /* Assets.xcassets in Resources */,
+				5F94728C1CE9BFCF0093CF73 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F9472951CE9BFCF0093CF73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F9472A01CE9BFCF0093CF73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F94727A1CE9BFCF0093CF73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F9472891CE9BFCF0093CF73 /* ViewController.m in Sources */,
+				5F9472861CE9BFCF0093CF73 /* AppDelegate.m in Sources */,
+				5F9472831CE9BFCF0093CF73 /* main.m in Sources */,
+				5F9472B71CE9C25F0093CF73 /* MagicFieldView.m in Sources */,
+				5F9472BB1CE9C27E0093CF73 /* MagicFieldController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F9472931CE9BFCF0093CF73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F94729C1CE9BFCF0093CF73 /* MagicFieldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F94729E1CE9BFCF0093CF73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F9472A71CE9BFCF0093CF73 /* MagicFieldUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F9472991CE9BFCF0093CF73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F94727D1CE9BFCF0093CF73 /* MagicField */;
+			targetProxy = 5F9472981CE9BFCF0093CF73 /* PBXContainerItemProxy */;
+		};
+		5F9472A41CE9BFCF0093CF73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F94727D1CE9BFCF0093CF73 /* MagicField */;
+			targetProxy = 5F9472A31CE9BFCF0093CF73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F94728A1CE9BFCF0093CF73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F94728B1CE9BFCF0093CF73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F94728F1CE9BFCF0093CF73 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F9472901CE9BFCF0093CF73 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F9472A91CE9BFCF0093CF73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F9472AA1CE9BFCF0093CF73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F9472AC1CE9BFCF0093CF73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MagicField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pabloalejandro.MagicField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5F9472AD1CE9BFCF0093CF73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MagicField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pabloalejandro.MagicField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5F9472AF1CE9BFCF0093CF73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MagicFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pabloalejandro.MagicFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicField.app/MagicField";
+			};
+			name = Debug;
+		};
+		5F9472B01CE9BFCF0093CF73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MagicFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pabloalejandro.MagicFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicField.app/MagicField";
+			};
+			name = Release;
+		};
+		5F9472B21CE9BFCF0093CF73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MagicFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pabloalejandro.MagicFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MagicField;
+			};
+			name = Debug;
+		};
+		5F9472B31CE9BFCF0093CF73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MagicFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pabloalejandro.MagicFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MagicField;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F9472791CE9BFCF0093CF73 /* Build configuration list for PBXProject "MagicField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F9472A91CE9BFCF0093CF73 /* Debug */,
+				5F9472AA1CE9BFCF0093CF73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F9472AB1CE9BFCF0093CF73 /* Build configuration list for PBXNativeTarget "MagicField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F9472AC1CE9BFCF0093CF73 /* Debug */,
+				5F9472AD1CE9BFCF0093CF73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5F9472AE1CE9BFCF0093CF73 /* Build configuration list for PBXNativeTarget "MagicFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F9472AF1CE9BFCF0093CF73 /* Debug */,
+				5F9472B01CE9BFCF0093CF73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5F9472B11CE9BFCF0093CF73 /* Build configuration list for PBXNativeTarget "MagicFieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F9472B21CE9BFCF0093CF73 /* Debug */,
+				5F9472B31CE9BFCF0093CF73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F9472761CE9BFCF0093CF73 /* Project object */;
+}
